@@ -61,7 +61,7 @@ Before you begin, ensure you have the following installed:
 - **Database**: PostgreSQL v16.x or higher.
   
 ### 2. Clone the repository:
-    git clone https://github.com/yourusername/arias-backend.git
+    git clone https://github.com/ummeabiha/ARIAS-BACKEND.git
 ### 3. Install dependencies:
     npm install
 ### 4. Set up environment variables:
