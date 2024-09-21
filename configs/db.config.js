@@ -38,7 +38,6 @@ const sequelize = new Sequelize(
     connectionTimeoutMillis: 30000,
 
     define: {
-      timestamps: true,
       underscored: true,
       freezeTableName: true,
     },
