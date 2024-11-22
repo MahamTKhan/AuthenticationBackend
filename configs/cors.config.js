@@ -2,10 +2,12 @@ const cors = require('cors');
 
 const allowedOrigins = process.env.ALLOWED_ORIGINS
   ? process.env.ALLOWED_ORIGINS.split(',')
-  : [];
+  :  [];
+  console.log("allowed origins",allowedOrigins)
 
 const corsOptions = {
   origin: function (origin, callback) {
+    console.log("request origin",origin)
     if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
       callback(null, true);
     } else {
